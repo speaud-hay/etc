@@ -1,0 +1,54 @@
+All instances of ENV
+
+---
+
+Josh.Mummertstern@PHLWLJSTERN MINGW64 ~/Desktop/bundle
+$ grep -Hnro "activate.haygroup.com" hgApps/
+	hgApps/configuration.html:27:activate.haygroup.com
+	hgApps/configuration2.html:20:activate.haygroup.com
+	hgApps/css/app.admin.min.css:1:activate.haygroup.com
+	hgApps/css/app.admin.min.css:1:activate.haygroup.com
+	hgApps/css/app.admin.min.css:1:activate.haygroup.com
+	hgApps/css/app.admin.min.css:1:activate.haygroup.com
+	hgApps/css/app.admin.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/css/app.scribe.min.css:1:activate.haygroup.com
+	hgApps/jobdescription.html:39:activate.haygroup.com
+	hgApps/jobdescription2.html:26:activate.haygroup.com
+	hgApps/js/hg.admin.min.js:5:activate.haygroup.com
+	hgApps/js/hg.scribe.min.js:8:activate.haygroup.com
+
+---
+
+Josh.Mummertstern@PHLWLJSTERN MINGW64 ~/Desktop/bundle
+$ grep -Hnro "activate.haygroup.com" hgEdge/
+	hgEdge/JobMapping/debugJs/JobMapping/hg.jobmapping.js:220:activate.haygroup.com
+	hgEdge/JobMapping/js/hg.app.js:50:activate.haygroup.com
+	hgEdge/launcher/debugJs/Launcher/public/js/constants.service.js:16:activate.haygroup.com
+	hgEdge/launcher/debugJs/Launcher/public/js/constants.service.js:19:activate.haygroup.com
+	hgEdge/launcher/debugJs/Launcher/public/js/constants.service.js:22:activate.haygroup.com
+	hgEdge/launcher/js/hg.launcher.js:53:activate.haygroup.com
+	hgEdge/launcher/js/hg.launcher.js:53:activate.haygroup.com
+	hgEdge/launcher/js/hg.launcher.js:54:activate.haygroup.com
+	hgEdge/other/js/hg.app.js:50:activate.haygroup.com
+
+---
+
+Josh.Mummertstern@PHLWLJSTERN MINGW64 ~/Desktop/bundle
+$ grep -Hnro "activate.haygroup.com" hay101a/
+	hay101a/index.html:53:activate.haygroup.com
+	hay101a/js/core/app.js:340:activate.haygroup.com
+	hay101a/test-0.9.2/index.html:53:activate.haygroup.com
+	hay101a/test-0.9.2/js/core/app.js:340:activate.haygroup.com
